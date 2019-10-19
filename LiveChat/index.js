@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import ChatBubble from './components/ChatBubble';
 import Chat from './components/Chat';
 GLOBAL.cookie = '';
-import { init } from "./sdk/livechat-visitor-sdk.min";
+import { init } from '@livechat/livechat-visitor-sdk';
 
 const chatIcon = require('./../assets/chat.png');
 const { width } = Dimensions.get('window');
